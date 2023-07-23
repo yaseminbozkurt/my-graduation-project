@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a53f968ed6.js" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/js/script.js"></script>
+
+
+    <title>ADRES BİLGİLERİ</title>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg ">
+        <div class="icon">
+            <a href="/index.html"><img src="/assets/images/icon.png" alt="" width="70" height="70"></a>
+
+        </div> &nbsp; &nbsp; &nbsp;
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">TARIM İLAÇLARI</a>
+            <div class="dropdown-content">
+                <a href="./views/pesticides/herbisitler.html">HERBİSİTLER </a>
+                <a href="./views/pesticides/fungusitler.html">FUNGİSİTLER </a>
+                <a href="./views/pesticides/insektisitler.html">İNSEKTİSİTLER</a>
+            </div>
+        </li>
+        <li><a href="/views/gubreler.html">TOHUMLAR</a></li>
+        <li><a href="/views/gubreler.html">GÜBRELER</a></li>
+        <li><a href="/views/about.html">HAKKIMIZDA</a></li>
+        <li><a href="/views/contact.html">İLETİŞİM</a></li>
+
+
+        <div id="account-area">
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                style="font-size: 19px;margin: 3px;">KULLANICI
+                GİRİŞİ</button>
+            &nbsp;
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal1"
+                style="font-size: 19px;">ÜYE
+                OL</button>
+        </div>
+
+    </nav>
+
+    <div id="mainbox">
+        <h2>Adres Bilgileri</h2>
+        <!-- bootstrap name  -->
+        <div class="row">
+            <div class="col">
+                <label style="padding-bottom: 8px;">Ad</label>
+                <input type="text" class="form-control" placeholder="Ad" aria-label="First name">
+            </div>
+            <div class="col">
+                <label style="padding-bottom: 8px;">Soyad</label>
+                <input type="text" class="form-control" placeholder="Soyad" aria-label="Last name">
+            </div>
+        </div>
+        <br>
+        <!-- bootstrap name  -->
+
+        <!-- bootstrap address  -->
+        <form class="row g-3">
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Adres</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Tüm adresinizi giriniz">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">İl</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-3">
+                <label for="inputCity" class="form-label">İlçe</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-3">
+                <label for="inputZip" class="form-label">Posta Kodu</label>
+                <input type="text" class="form-control" id="inputZip">
+            </div>
+
+            <p>
+                <label>Teslimat Günü / Zamanı:
+                    <input class="picker" type="datetime-local" name="pickup_time" required>
+                </label>
+            </p>
+
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Özel Talimatlar</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="(isteğe bağlı)">
+            </div>
+            <button class="submitbtn" type="submit">Ödemeye Devam Et</button>
+        </form>
+        <!-- bootstrap address  -->
+
+    </div>
+
+    <div class="my-footer d-flex">
+        <div class="container" style="overflow: hidden; width: 100%;">
+            <div class="sol">
+                <p> İletişime Geçin </p>
+                <p>
+                    Tarım<br>
+                    tarim@gmail.com<br>
+                    Copyright © 2019[Tarım] Tüm Hakları Saklıdır.
+                </p>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <div class="orta">
+                <h4> E-Bülten</h4>
+                <h6> Gelişmelerden haberdar olmak isterseniz e-posta adresinizi bizimle paylaşabilirsiniz.</h6>
+                <form>
+                    <label for="fname"></label>
+                    <input type="text" id="fname" name="fname" placeholder="Ad Soyad">
+                    <input type="text" placeholder="@gmail.com">
+                    <input type="submit">
+            </div>
+            </form>
+
+        </div>
+
+        <div class="sag">
+            <h4> Takip Et! </h4>
+            <h6> Bizi aşağıdaki kanalları kullanarak sosyal medya üzerinden takip edebilirsin.</h6>
+            <div class="social-media">
+                <div class="iconlar">
+                    <a href="facebook.html" rel="noopener noreferrer">
+                        <img src="/assets/images/facebook.png">
+                    </a>
+                    <a href="instagram.html" rel="noopener noreferrer">
+                        <img src="/assets/images/instagram.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.querySelector('form').addEventListener('submit', addressFun);
+        function addressFun() {
+            document.querySelector('form').action = 'payment.html';
+        }
+    </script>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Kullanıcı Girişi</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form id="loginForm">
+                    <div class="modal-body">
+                        <div id="loginModalErrorMessage"></div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label"> E-posta Adresi
+                            </label>
+                            <input type="email" name="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Şifre </label>
+                            <input type="password" name="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <a href="sifremiunuttum.html" rel="noopener noreferrer">
+                            Şifremi Unuttum </a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                        <a id="loginBtn" class="btn btn-success">Giriş Yap</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Modal2 -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel1">Üye Olunuz</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="registerForm">
+                        <div class="mb-3">
+                            <label for="exampleInputName2" class="form-label">
+                                Ad Soyad </label>
+                            <input type="text" name="nameSurname" class="form-control" id="exampleInputName2"
+                                aria-describedby="nameHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPhone2" class="form-label"> Telefon Numarası
+                            </label>
+                            <input type="text" name="userTel" class="form-control" id="exampleInputPhone2">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail2" class="form-label"> E-posta Adresi
+                            </label>
+                            <input type="email" name="email" class="form-control" id="exampleInputEmail2"
+                                aria-describedby="userEmail">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword2" class="form-label">Şifre </label>
+                            <input type="password" name="password" class="form-control" id="exampleInputPassword2">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                            <a id="registerBtn" class="btn btn-success">Üye
+                                Ol</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+
+<script type="text/javascript">
+    Scripts.Init();
+    if (localStorage.getItem("user") != null) {
+        var accountArea = document.getElementById("account-area");
+        const htmlContent = '<a href="/views/html/wishlist.html"><button type="button" class="btn btn-success">FAVORİLERİM</button></a>' + '&nbsp' + '<a href="/views/html/cart.html"><button type="button" class="btn btn-success">SEPETİM</button></a>' + '&nbsp' +
+            '<button type="button" id="logoutBtn" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">ÇIKIŞ YAP</button>'
+        accountArea.innerHTML = htmlContent;
+    } else {
+        console.log("hata")
+    }
+
+</script>
+
+</html>

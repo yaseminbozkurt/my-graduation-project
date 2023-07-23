@@ -1,0 +1,323 @@
+[
+{
+"id": 1,
+"title": "FASULYE",
+"price": 20.95,
+"description": "FASULYE TOHUMU",
+"category": "tohum",
+"image": "https://www.fidanistanbul.com/imgs/product/961/fasulye-cali-safiye-sirik-tohumu-paket-50-gr-29672.jpg"
+},
+{
+"id": 2,
+"title": "DOMATES",
+"price": 22.3,
+"description": "DOMATES TOHUMU",
+"category": "tohum",
+"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNFElzHk-OY8O2oNH71yx-4Duft201ErR0TA&usqp=CAU"
+},
+{
+"id": 3,
+"title": "KIVIRCIK",
+"price": 25.99,
+"description": "KIVIRCIK TOHUMU",
+"category": "tohum",
+"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQeS3D6dB4LHAhYGryat7tPGWCiQjKqAnIFg&usqp=CAU"
+},
+{
+"id": 4,
+"title": "SALATALIK",
+"price": 27.99,
+"description": "SALATALIK TOHUMU",
+"category": "tohum",
+"image": "https://www.canlipetshop.com/image/cache/catalog/10548856225842-800x600.jpg"
+},
+{
+"id": 5,
+"title": "DOLMALIK BİBER",
+"price": 30.95,
+"description": "DOLMALIK BİBER TOHUMU",
+"category": "tohum",
+"image": "https://cdn03.ciceksepeti.com/cicek/kc3704109-1/XL/yesil-antep-dolmalik-aci-biber-tohumu-5-gram-kc3704109-1-f6663799df04485f956cca1e45c00a89.jpg"
+},
+{
+"id": 6,
+"title": "KIRMIZI PANCAR",
+"price": 40.15,
+"description": "KIRMIZI PANCAR TOHUMU",
+"category": "tohum",
+"image": "https://n11scdn.akamaized.net/a1/375_535/04/72/49/34/IMG-883750362793025230.jpg",
+},
+{
+"id": 7,
+"title": "BİBER",
+"price": 24.99,
+"description": "BİBER TOHUMU",
+"category": "tohum",
+"image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg"
+},
+{
+"id": 8,
+"title": "KARPUZ",
+"price": 35.99,
+"description": "KARPUZ TOHUMU",
+"category": "tohum",
+"image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg"
+},
+{
+"id": 9,
+"title": "AROZEN",
+"price": 450.99,
+"description": "AROZEN HERBİSİTİ",
+"category": "herbisit",
+"image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg"
+},
+{
+"id": 10,
+"title": "BASARAN-M",
+"price": 554.99,
+"description": "BASARAN-M HERBİSİTİ",
+"category": "herbisit",
+"image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg"
+},
+{
+"id": 11,
+"title": "BASEGATE",
+"price": 349.99,
+"description": "BASEGATE HERBİSİTİ",
+"category": "herbisit",
+"image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg"
+},
+{
+"id": 12,
+"title": "BAYTORE",
+"price": 550.99,
+"description": "BAYTORE HERBİSİTİ",
+"category": "herbisit",
+"image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg"
+},
+{
+"id": 13,
+"title": "BEST ESTER 46",
+"price": 599,
+"description": "BEST ESTER 46 HERBİSİTİ",
+"category": "herbisit",
+"image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg"
+},
+{
+"id": 14,
+"title": "BESTUTAX",
+"price": 599.99,
+"description": "BESTUTAX HERBİSİTİ",
+"category": "herbisit",
+"image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg"
+},
+{
+"id": 15,
+"title": "FILIKER",
+"price": 656.99,
+"description": "FILIKER HERBİSİTİ",
+"category": "herbisit",
+"image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg"
+},
+{
+"id": 16,
+"title": "STOMP AQUA",
+"price": 829.95,
+"description": "STOMP AQUA HERBİSİTİ",
+"category": "herbisit",
+"image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg"
+},
+{
+"id": 17,
+"title": "APPLORE 25",
+"price": 339.99,
+"description": "APPLORE 25 FUNGUSİTİ",
+"category": "fungusit",
+"image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg"
+},
+{
+"id": 18,
+"title": "AQUATIS",
+"price": 569.85,
+"description": "AQUATIS FUNGUSİTİ",
+"category": "fungusit",
+"image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg"
+},
+{
+"id": 19,
+"title": "BERAUT",
+"price": 457.95,
+"description": "BERAUT FUNGUSİTİ",
+"category": "fungusit",
+"image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+},
+{
+"id": 20,
+"title": "CANPRIN",
+"price": 412.99,
+"description": "CANPRIN FUNGUSİTİ",
+"category": "fungusit",
+"image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+},
+{
+"id": 21,
+"title": "CONVINCE",
+"price": 557.95,
+"description": "CONVINCE FUNGUSİTİ",
+"category": "fungusit",
+"image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+},
+{
+"id": 22,
+"title": "EUROGOLD",
+"price": 577.95,
+"description": "EUROGOLD FUNGUSİTİ",
+"category": "fungusit",
+"image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+},
+{
+"id": 23,
+"title": "KAMBIT",
+"price": 767.95,
+"description": "KAMBIT FUNGUSİTİ",
+"category": "fungusit",
+"image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+},
+{
+"id": 24,
+"title": "MAYCEB 45",
+"price": 550.95,
+"description": "MAYCEB 45 FUNGUSİTİ",
+"category": "fungusit",
+"image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+},
+{
+"id": 25,
+"title": "AKTINARA 35",
+"price": 457.95,
+"description": "AKTINARA İNSEKTİSİTİ",
+"category": "insektisit",
+"image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+},
+{
+"id": 26,
+"title": "BIG-MECH",
+"price": 500.95,
+"description": "BIG-MECH İNSEKTİSİTİ",
+"category": "insektisit",
+"image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+},
+{
+"id": 27,
+"title": "CONSALT",
+"price": 750.95,
+"description": "CONSALT İNSEKTİSİTİ",
+"category": "insektisit",
+"image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+},
+{
+"id": 28,
+"title": "KEMIDON",
+"price": 398.95,
+"description": "KEMIDON İNSEKTİSİTİ",
+"category": "insektisit",
+"image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+},
+{
+"id": 29,
+"title": "NETGROWY",
+"price": 553.95,
+"description": "NETGROWY İNSEKTİSİTİ",
+"category": "insektisit",
+"image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+},
+{
+"id": 30,
+"title": "RESUMME 600",
+"price": 654.95,
+"description": "RESUMME 600 İNSEKTİSİTİ",
+"category": "insektisit",
+"image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+},
+{
+"id": 31,
+"title": "PIANTA 240",
+"price": 479.95,
+"description": "PIANTA 240 İNSEKTİSİTİ",
+"category": "insektisit",
+"image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+},
+{
+"id": 32,
+"title": "ROCKPSO 35",
+"price": 450.95,
+"description": "ROCKPSO İNSEKTİSİTİ",
+"category": "insektisit",
+"image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+},
+{
+"id": 33,
+"title": "ALGACIFO DENIZ YOSUNU",
+"price": 379.95,
+"description": "ALGACIFO DENIZ YOSUNU GÜBRESİ",
+"category": "gubre",
+"image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+},
+{
+"id": 34,
+"title": "ISABELLA",
+"price": 447.95,
+"description": "ISABELLA GÜBRESİ",
+"category": "gubre",
+"image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+},
+{
+"id": 35,
+"title": "MAXI-CROP",
+"price": 375.95,
+"description": "MAXI-CROP GÜBRESİ",
+"category": "gubre",
+"image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+},
+{
+"id": 36,
+"title": "PLANTSTONE",
+"price": 457.95,
+"description": "PLANTSTONE GÜBRESİ",
+"category": "gubre",
+"image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+},
+{
+"id": 37,
+"title": "SOLGROC",
+"price": 550.95,
+"description": "SOLGROC GÜBRESİ",
+"category": "gubre",
+"image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+},
+{
+"id": 38,
+"title": "SYMBION K",
+"price": 389.95,
+"description": "SYMBION K GÜBRESİ",
+"category": "gubre",
+"image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+},
+{
+"id": 39,
+"title": "SYBION S",
+"price": 430.95,
+"description": "SYMBION S GÜBRESİ",
+"category": "gubre",
+"image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+},
+{
+"id": 40,
+"title": "VERMOCEAN",
+"price": 450.95,
+"description": "VERMOCEAN GÜBRESİ",
+"category": "gubre",
+"image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+}
+]
+

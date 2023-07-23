@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="/assets/images/icon.png" rel="icon" type="image/png">
+  <title> AGROPLANT </title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.rtl.min.css"
+    integrity="sha384-DOXMLfHhQkvFFp+rWTZwVlPVqdIhpDVYT9csOnHSgWQWPX0v5MCGtjCJbY6ERspU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/adminCRUD.css">
+
+</head>
+
+<body>
+  <div id='parent_div'>
+    <div id="left_div">
+      <div id="left_div_1">
+        &nbsp; &nbsp; &nbsp; <img src="/assets/images/icon.png" alt="" width="70" height="70"> &nbsp; &nbsp; &nbsp;
+        <h4> AGROPLANT</h4>
+      </div>
+      <div id="left_div_2">
+        <div><button id="showAllBtn">Ürünler</button></div>
+        <div><button id="add">Ürün Ekle</button></div>
+        <div><button id="showUserBtn">Kullanıcılar</button></div>
+        <div><button id="showOrdertrackingBtn">Sipariş Takibi</button></div>
+
+        <div><button id="Agroplant">Oturumu Kapat</button></div>
+      </div>
+      <hr>
+      <div id="left_div_3">
+        <img width="100%" height="70%" src="/assets/images/farm/farmer.jpg" alt="">
+      </div>
+    </div>
+    <div id="right_div">
+      <div id="right_div_1">
+        <div> <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="CTRL K Search Anything...">
+          <i class="fa-regular fa-circle-question"></i>
+          <i class="fa-solid fa-bell"></i>
+        </div>
+        <div id="adminName"></div>
+      </div>
+      <div id="right_div_2">
+        <!-- <div id="showAdd"></div>
+        <div id="showAll"></div> -->
+      </div>
+    </div>
+</body>
+
+</html>
+<script>
+
+  let adminName = document.getElementById("adminName")
+  adminName.innerHTML = `<h5> Merhaba Admin </h5>`
+
+
+  document.getElementById("Agroplant").addEventListener("click", () => {
+    window.location.href = "/index.html"
+  })
+</script>
+<script src="/javascript/adminCRUD.js"></script>

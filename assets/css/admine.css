@@ -1,0 +1,51 @@
+body {
+  background-image: url("/assets/images/farm/farm7.jpg");
+  background-size: cover;
+}
+.login-form {
+  max-width: 500px;
+  margin: 100px auto;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 10px #999;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #999;
+}
+
+input[type="submit"] {
+  background-color: #00ba54;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #00803e;
+}
+
+#error-msg {
+  color: red;
+  font-weight: bold;
+}
